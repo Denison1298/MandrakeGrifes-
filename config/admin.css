@@ -1,0 +1,104 @@
+/* Estilo para a barra de navegação (botões de Voltar e Logout) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn-voltar, .btn-logout {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-voltar {
+    background-color: #2196F3; /* Azul para o botão de voltar */
+}
+
+.btn-logout {
+    background-color: #F44336; /* Vermelho para o botão de logout */
+}
+
+.btn-voltar:hover, .btn-logout:hover {
+    opacity: 0.8;
+}
+
+/* Botão de Adicionar Produto */
+.buttons {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-add {
+    background-color: #4CAF50; /* Verde para o botão de adicionar */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-add:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para a tabela de produtos */
+.produtos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+.produtos-table th, .produtos-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.produtos-table th {
+    background-color: #4CAF50; /* Cor verde para o cabeçalho */
+    color: white;
+}
+
+.produtos-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternância de cor nas linhas */
+}
+
+.produtos-table tr:hover {
+    background-color: #ddd; /* Cor ao passar o mouse sobre a linha */
+}
+
+/* Estilo para os botões de ação (editar e excluir) */
+.btn-editar, .btn-deletar {
+    padding: 6px 12px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+}
+
+.btn-editar {
+    background-color: #FFC107; /* Amarelo para o botão de editar */
+}
+
+.btn-editar:hover {
+    background-color: #FF9800;
+}
+
+.btn-deletar {
+    background-color: #F44336; /* Vermelho para o botão de excluir */
+}
+
+.btn-deletar:hover {
+    background-color: #e53935;
+}
+
+.btn-editar, .btn-deletar {
+    transition: background-color 0.3s ease;
+}
